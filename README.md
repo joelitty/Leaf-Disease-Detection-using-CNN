@@ -1,52 +1,34 @@
-Leaf Disease Detection Using Convolutional Neural Networks (CNN)
+Leaf Disease Detection Using CNN
 
-This project implements a Deep Learning–based plant leaf disease detection system using a Convolutional Neural Network (CNN).
-It automatically classifies leaf images into healthy or diseased categories, helping in early detection of plant diseases in agriculture.
+A deep learning–based system that detects plant leaf diseases using image classification.
+The model analyzes leaf images and predicts whether the leaf is healthy or affected by a disease.
 
-Project Objective
+##  Features
 
-Early detection of plant diseases is critical for improving crop yield and reducing losses.
-This project aims to:
+- Image-based plant disease detection
+- CNN-based classification model
+- Supports multiple leaf disease categories
+- Separate scripts for training, evaluation, and prediction
+- Clean and modular Python code
 
-Analyze leaf images
+## Tech Stack
 
-Detect diseases using a CNN model
+- Python
+- TensorFlow / Keras
+- NumPy
+- OpenCV
+- Matplotlib
 
-Provide accurate classification results
-
-Key Features
-
- Image-based plant disease classification
-
- CNN architecture built using TensorFlow & Keras
-
- Separate scripts for training, evaluation, and prediction
-
- Modular and clean code structure
-
- Easily extendable for new plant diseases
-
-Technology Stack
-
-Programming Language: Python
-
-Deep Learning Framework: TensorFlow / Keras
-
-
+##  Project Structure
 
 leaf-disease-detection-cnn/
 │
-├── train.py              # Trains the CNN model
-├── evaluate.py           # Evaluates model performance
-├── predict.py            # Predicts disease from an image
-├── model.py              # CNN architecture
-├── utils.py              # Data loading & preprocessing
-├── config.py             # Paths and hyperparameters
-├── saved_model/           # Saved trained model
-│
+├── train.py        # Model training script
+├── evaluate.py     # Model evaluation
+├── predict.py      # Disease prediction from image
+├── model.py        # CNN architecture
+├── utils.py        # Data loading and preprocessing
+├── config.py       # Configuration and constants
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-Libraries: NumPy, OpenCV, Matplotlib
-
-Model Type: Convolutional Neural Network (CNN)
